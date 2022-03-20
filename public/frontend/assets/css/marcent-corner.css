@@ -1,0 +1,133 @@
+.header{box-shadow: 0px 1px 2px #9900CC;}
+.logo{}
+.logo a img{
+    width: 100%;
+    height: auto;
+}
+
+
+.marcent_banner{
+    /*background: #FFF;*/
+}
+.marcent_banner h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 38px;
+    text-align: left;
+    color: purple;
+}
+.marcent_login{
+    margin-top: 5px;
+    float: right;
+}
+.marcent_login p{
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.marcent_login form{}
+
+
+.marcent_login form input[type="email"],
+.marcent_login form input[type="password"]{
+    height: 37px;
+    border-radius: 0px;
+}
+.marcent_login form input[type="email"]:focus,
+.marcent_login form input[type="password"]:focus{
+    border: 1px solid purple;
+}
+
+.marcent_sign_up form button,
+.marcent_login form button{
+    height: 37px;
+    border: 1px solid purple;
+    transition: 0.3s;
+    background: purple;
+    color: #FFF;
+    border-radius: 0px;
+}
+.marcent_sign_up form button:hover,
+.marcent_login form button:hover{
+    border: 1px solid purple;
+    background: #FFF;
+    color:purple; 
+}
+
+
+/*Start Slider & Sign Up CSS*/
+.faq_and_signup{margin: 25px 0px;}
+
+
+.client_faq{}
+
+.client_faq h2,
+.marcent_sign_up h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+    color: purple;
+}
+.client_faq .panel{
+    border-radius: 0px;
+}
+
+
+.marcent_sign_up{}
+.marcent_sign_up h2{
+
+}
+.marcent_sign_up form{}
+.marcent_sign_up form .form-group{margin-bottom: 5px;}
+
+.marcent_sign_up form label{font-weight: 500;}
+
+
+.marcent_sign_up form textarea,
+.marcent_sign_up form input[type="text"],
+.marcent_sign_up form input[type="password"]{
+    height: 35px;
+    /*border: 1px solid purple;*/
+    border-radius: 0px;
+}
+
+.marcent_sign_up form textarea{
+    height: 70px;
+}
+.marcent_sign_up form input[type="text"]:focus,
+.marcent_sign_up form input[type="password"]:focus,
+.marcent_sign_up form textarea:focus{
+    border: 1px solid purple;
+}
+/*Close Slider & Sign Up CSS*/
+
+
+
+/*Start Quick Link CSS*/
+.quick_link{}
+.single_quick_link{
+    background: #FFF;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+}
+.single_quick_link i{
+    background: #F5F5F5;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+.single_quick_link h2{
+    font-size: 27px;
+    font-weight: 400;
+    color: #444;
+    padding-top: 15px;
+}
+
+.single_quick_link:hover.single_quick_link i{
+    background: #9900CC;
+    color: #FFF;
+}
+/*Close Quick Link CSS*/

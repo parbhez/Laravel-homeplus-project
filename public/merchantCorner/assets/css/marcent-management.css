@@ -1,0 +1,47 @@
+.select_status{}
+.select_status select{
+    text-align: left;
+    line-height: 29px;
+    border: 1px solid #9900CC;
+    font-size: 14px;
+    color: #292929;
+    font-weight: 400;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url("../img/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.search_dill{}
+.search_dill input [type="text"]{}
+.search_dill .btn{}
+
+.pagination_div{}
+.pagination_div ul{}
+.pagination_div ul li{}
+.pagination_div ul li a{
+    border-radius: 0px !important;
+}
+
+.product_remain_status p{
+    margin: 0px;
+    font-size: 24px;
+}
+
+
+.waiting_product_list{}
+.waiting_product_list td{}
+.waiting_product_list td img{
+    width: 50px;
+}
+.waiting_product_list td p{}
+.waiting_product_list td p b{}
+.waiting_product_list td a{
+    color: #fff;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

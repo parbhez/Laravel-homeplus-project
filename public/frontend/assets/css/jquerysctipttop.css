@@ -1,0 +1,66 @@
+.slider-wrap {
+position: relative;
+margin: 50px auto;
+width: 290px;
+}
+.slider {
+position: relative;
+width: 250px;
+margin: auto;
+}
+ul {
+margin: 0;
+padding: 0;
+}
+ul li {
+list-style: none;
+text-align: center;
+}
+ul li span {
+display: inline-block;
+vertical-align: middle;
+width: 40px;
+height: 40px;
+background: black;
+margin-left: 5px;
+float: left;
+}
+
+ul li span:first-child{
+margin-left: 12px;
+}
+
+.slider-arrow {
+position: absolute;
+top: 17px;
+width: 15px;
+height: 15px;
+background: #006666;
+text-align: center;
+text-decoration: none;
+border-radius: 100%;
+}
+.slider-arrow a i{
+color: #fff;
+}
+.sa-left {
+left: 10px;
+}
+.sa-right {
+right: 20px;
+}
+.black {
+background: black;
+}
+.red {
+background: red;
+}
+.green {
+background: green;
+}
+.blue {
+background: blue;
+}
+.yellow {
+background: yellow;
+}

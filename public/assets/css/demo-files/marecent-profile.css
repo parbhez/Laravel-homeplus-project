@@ -1,0 +1,406 @@
+/*Start Top Bar CSS*/
+.extra-wide {
+    padding-right: 0px !important;
+}
+.top_bar{}
+.top_bar .navbar{
+    border: none;
+    border-radius: 0px;
+    min-height: 20px;
+    height: auto;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 0px;
+}
+.top_bar .navbar-default{background: #4D4D4D;}
+
+.top_bar .navbar-collapse{padding: 0px;}
+
+.top_bar .nav{}
+.top_bar .navbar-nav{margin-top: 6px;}
+.top_bar .navbar-nav li{
+    border-right: 2px solid #FFF;
+    padding: 0px 10px;
+}
+.top_bar .navbar-nav li:last-child{
+    border-right: none;
+    padding-right:0px; 
+}
+.top_bar .navbar-nav li a{
+    padding: 0px !important;
+    color: #fff;
+}
+.top_bar .navbar-nav li a:hover{color: #DDD;}
+
+.top_bar .navbar-nav li.active a{
+    background: none;
+    color: #fff;
+}
+.top_bar .navbar-nav li.active a:hover{                                     
+    background: none;
+    color: #DDD;
+}
+.top_bar .navbar-nav li a i{color: #FFF;}
+
+
+.top_bar .navbar-nav li.open a{
+    background: none;
+    color: #9900CC;
+}
+
+.top_bar .navbar-nav li.open a:hover,
+.top_bar .navbar-nav li.open a:focus,
+.top_bar .navbar-nav li.open a:active{
+    background: none;
+    color: #9900CC;
+}
+
+.top_bar .navbar-nav .dropdown-menu{margin-top: 10px;}
+.top_bar .navbar-nav .dropdown-menu li{border-right: none;}
+.top_bar .navbar-nav .dropdown-menu li a{color: #4D4D4D;}
+
+.top_bar .navbar-nav .dropdown-menu li .form-group{
+    padding: 0px 0px 10px 0px;
+}
+.top_bar .navbar-nav .dropdown-menu li button{
+    background: #9900CC;
+    width: 100%;
+    padding: 3px 0px;
+    font-size: 18px;
+}
+.top_bar .navbar-nav .dropdown-menu li .forget_pass{
+    text-align: center;
+    padding: 2px 0px;
+}
+.top_bar .navbar-nav .dropdown-menu li .forget_pass a{font-size: 12px;}
+
+
+.top_bar button.btn{
+    color: #FFF;
+    background:none;
+    border-color: #FFF;
+    border-radius: 0px;
+    padding: 0px 10px;
+}
+.top_bar button.btn.active{
+    color: #000;
+    background: #fff;
+    border-color: #FFF;
+    box-shadow: inset 0px 0px 0px rgba(0,0,0,0);
+}
+.top_bar button.btn-default{}
+
+.search_wrapper{margin-top: 0px;display: none;}
+
+.search_box{
+    border: 2px solid #9900cc;
+    background: #FFF;
+}
+.search_box .col-md-9{padding-right: 0px;}
+.search_box .col-md-3{padding-left: 0px}
+.search_box form{}
+.search_box .search_input_box input[type="text"]{
+    height: 35px;
+    border-radius: 0px !important;
+    border: none;
+    color: #292929;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 3px 20px;
+    width: 100%;
+}
+
+.search_box .select_input_category{
+    background: tomato
+}
+
+.search_box .select_input_category select{
+    text-align: center;
+    line-height: 29px;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-top: none;
+    border-bottom: none;
+    font-size: 14px;
+    color: #292929;
+    font-weight: 400;
+    width: 95px;
+    height: 35px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url("../img/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.search_box .select_input_category button{
+    color: #000;
+    background: #FFF;
+    border: none;
+    border-radius: 0px;
+    padding: 3px 24px;
+    font-size: 20px;
+}
+.shopping_cart{
+
+}
+.shopping_cart a{}
+.shopping_cart a i{
+    font-size: 39px;
+    color: #FFF;
+}
+/*Close Top Bar CSS*/
+
+/*Start Header CSS*/
+.header{box-shadow: 0px 1px 2px #9900CC;}
+.logo{}
+.logo a img{
+    width: 100%;
+    height: auto;
+}
+
+
+.marcent_banner{
+    /*background: #FFF;*/
+}
+.marcent_info h2,
+.marcent_banner h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 38px;
+    text-align: right;
+    color: purple;
+}
+.marcent_login{
+    margin-top: 32px;
+    float: right;
+}
+.marcent_login p{
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.marcent_login form{}
+
+
+.marcent_login form input[type="search"]{
+    height: 37px;
+    border-radius: 0px;
+    width: 300px;
+}
+.marcent_login form input[type="search"]:focus{
+    border: 1px solid purple;
+}
+
+.marcent_sign_up form button,
+.marcent_login form button{
+    height: 37px;
+    border: 1px solid purple;
+    transition: 0.3s;
+    background: purple;
+    color: #FFF;
+    border-radius: 0px;
+}
+.marcent_sign_up form button:hover,
+.marcent_login form button:hover{
+    border: 1px solid purple;
+    background: #FFF;
+    color:purple; 
+}
+
+.marcent_info{
+    position: relative;
+}
+.marcent_info h2{cursor: pointer;}
+
+.marcent_info_style{
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    background: #FFF;
+    width: 250px;
+    padding: 15px;
+    z-index: 9;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid #ddd;
+
+    opacity: 0;
+    transition: 0.2s;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+}
+.marcent_info:hover .marcent_info_style{
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.info_text{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+/*Close Header CSS*/
+
+
+/*Start body content CSS*/
+.sidebar_body_content{  margin: 30px 0px;}
+
+.sidebar_body_content .container{
+    /*background: #FFF;*/
+
+}
+
+.sidebar{}
+
+.product_status{
+    background: #FFF;
+    padding: 5px 30px;
+}
+.total_product{}
+.total_product p{
+    margin: 0px;
+    font-size: 18px;
+}
+.total_product p strong{
+    color: #9900CC;
+}
+.product_sort{}
+.product_sort select{
+    text-align: center;
+    line-height: 29px;
+    border: 1px solid #DDD;
+    font-size: 14px;
+    color: #292929;
+    font-weight: 400;
+    width: 220px;
+    height: 34px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url("../img/arrowdown.gif") no-repeat 90% 40%;
+}
+
+
+.marcent_product_list{
+    /*background: #ddd;*/
+    margin: 10px 0px;
+}
+
+.marcent_product_list .product_unit{
+    height: 280px;
+    position: relative;
+    box-shadow: 0px 0px 4px #ccc;
+    margin-bottom: 20px;
+}
+.marcent_product_list .product_unit:hover{
+    box-shadow: 0px 0px 4px #444;
+}
+.marcent_product_list .product_unit a img{height: 200px;}
+
+
+.marcent_product_list .product_unit_content{
+    text-align: center;
+    padding: 8px 5px;
+}
+
+.marcent_product_list .product_unit_content a h2{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.price_and_order{
+    /*background: red;*/
+    height: 50px;
+    padding: 15px 20px 5px 20px;
+}
+.price_and_order .price{float: left;}
+
+.price_and_order .price h3{
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 4px;
+    color: #9900CC;
+}
+.price_and_order .order{float: right;}
+.price_and_order .order .btn{border-radius: 0px;padding: 1px 7px;}
+
+
+/*Close body content CSS*/
+.sidebar{margin-bottom: 40px;}
+
+.pricebar h2,
+.sidebar h2{
+    background: #9900CC;
+    color: #FFF;
+    text-align: left;
+    padding: 7px 10px;
+    font-size: 20px;
+
+}
+
+.mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainmenu{background: #F9F9F9;}
+.mainmenu li{border-bottom: 1px solid #FFF;}
+.mainmenu a {
+    display: block;
+    color: #4D4D4D;
+    text-decoration: none;
+    padding: 10px;
+}
+.mainmenu li a i{
+    float: right;
+    margin-top: 2px;
+}
+
+.mainmenu li:hover a{
+    background-color: #FFF;
+    color: #9900CC;
+}
+.mainmenu li:hover .submenu {
+    display: block;
+    max-height: 300px;
+    transition: 0.4s;
+}
+
+.submenu a {
+    background-color: #DDD !important;
+    color: #4D4D4D !important;
+}
+
+.submenu a:hover {
+    background-color: #FFF !important;
+    color: #9900CC  !important;
+}
+
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+
+.pricebar {background: #FFF;display: none;}
+
+.pricing_list{
+    /*margin-top: 10px;*/
+    padding: 10px 10px;
+}
+
+.pricing_list p{
+    margin: 0px;
+    text-align: center;
+    padding-top:10px;
+}
+.pricing_list p input[type="button"]{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #9900CC;
+}
+
+.pricing_list .demo{padding-top: 8px;}
+.pricing_list .demo #slider-range{}

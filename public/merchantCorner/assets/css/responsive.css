@@ -1,0 +1,80 @@
+/* lg */ 
+@media (min-width: 1400px) {
+    /*body{background: gold;}*/
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /*body{background: red;}*/
+
+
+
+}
+
+
+
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*body{background: green;}*/
+
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    body{background: #DDD;}
+
+
+    .search_box .select_input_category select {
+        text-align: left;
+        width: 55px;
+    }
+    .search_box .select_input_category button {
+        padding: 11px 15px;
+        font-size: 16px;
+    }
+    .top_menu ul li {border-right: 1px solid #FFF;}
+    .top_menu ul li a {padding: 0px 4px;font-size: 16px;}
+
+    .second_slider .owl-nav div {
+        font-size: 24px;
+        padding: 0px 6px;
+    }
+    .second_slider .owl-nav div.owl-next {right: -21px;}
+
+    .gents_mega_menu {width: 562px;}
+
+    .product_unit_content a h2 {font-size: 13px;}
+    .product_unit_content h3 {font-size: 18px;}
+
+
+
+
+
+
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+    body{background: orangered;}
+
+
+}
+
+@media (max-width: 480px) {
+    body{background: #10AEE8;}
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+    body{background: yellowgreen;}
+
+
+
+
+}

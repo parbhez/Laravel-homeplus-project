@@ -1,0 +1,142 @@
+/*start profile manage*/
+.marcent_logo{
+    float: left;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.marcent_logo img{
+    width: 90px;
+    height: 80px;
+}
+
+.manage_marcent_profile{
+    margin-top: 37px;
+}
+
+.marcent_username{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.marcent_username h2{
+    font-size: 24px;
+    color: purple;
+}
+
+.marcent_username_dropdown{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+    background: #F1F1F1;
+    border: 1px solid purple;
+    padding: 10px 0px;
+    width: 120px;
+    z-index: 9;
+}
+.marcent_username_dropdown ul{}
+.marcent_username_dropdown ul li{border-bottom: 1px solid #FFF;}
+.marcent_username_dropdown ul li:last-child{border-bottom: none}
+.marcent_username_dropdown ul li a{
+    padding: 5px 10px;
+    display: block;
+    color: purple;
+    transition: 0.5s;
+}
+.marcent_username_dropdown ul li a:hover{
+    background: purple;
+    color: #FFF;
+}
+.marcent_username:hover .marcent_username_dropdown{
+    opacity: 1;
+    display: block;
+    visibility: visible;
+}
+/*Close profile manage*/
+
+
+.all_live_dill{}
+.all_live_dill select,
+.status_dropdown select{
+    text-align: left;
+    line-height: 29px;
+    border: 1px solid #9900CC;
+    font-size: 14px;
+    color: #292929;
+    font-weight: 400;
+    width: 70%;
+    height: 35px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url("../img/arrowdown.gif") no-repeat 90% 50%;
+}
+.all_live_dill select:focus{
+    border: 1px solid #9900CC;
+}
+
+.bd_body .tab-content{
+    background: #F5F5F5;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.sales_status{
+    background: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sales_status h1{
+    color: #9900CC;
+    font-size: 42px;
+    line-height: 50px;
+}
+.sales_status p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+
+
+/*================================*/
+.search_box{border: 1px solid #9900cc;}
+.search_box .search_input_box input[type="text"]:focus{
+    border: none;
+}
+.search_box .select_input_category select:focus{
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-top: none;
+    border-bottom: none;
+}
+.status_dropdown select{height: 45px;}
+
+
+.status_result{
+    padding: 50px 0px;
+    background: #FFF;
+    margin-top: 30px;
+}
+.select_input_category a.btn{
+    border-radius: 0px;
+    border: none;
+    font-size: 24px;
+    padding: 5px 31px;
+    background: #FFF;
+    color: purple;
+}
+
+
+/*======================FOOTER==============*/
+footer{
+    background: #444;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+footer p{color: #FFF;}

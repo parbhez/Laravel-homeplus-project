@@ -1,0 +1,164 @@
+.bd_body .tab-content {
+    background: #FFF;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/*==========*/
+/*.help_contact{margin-top: 38px;}
+.help_contact p{text-align: right;}*/
+
+
+/*Start Dashboard Body*/
+.dashboard_body{
+    margin: 25px 0px;
+}
+.dashboard_body .col-md-1 {padding: 0px;}
+.dashboard_body .col-md-11 {
+    padding-left: 0px !important;
+    background: #FFF;
+    padding-bottom: 30px;
+    padding-top: 30px; 
+}
+
+
+.db_menu{}
+.db_menu ul{}
+.db_menu ul li{text-align: center;}
+
+.db_menu ul li a{
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    background: rgba(153,0,204,0.3);
+    border-bottom: 5px solid #D4AAEC;
+}
+.db_menu ul li a:hover{
+    background: rgba(153,0,204,0.6);
+    color: #FFF;
+    border-bottom: 5px solid #FFF;
+}
+.db_menu ul li a.active{
+    background: #9900CC;
+    color: #FFF;
+    border-bottom: 5px solid #FFF;
+}
+
+.db_menu ul li a i{}
+.db_menu ul li a p{margin-bottom: 0px;font-size: 13px;}
+
+
+/*================================*/
+/*================================*/
+.bd_body{
+    background: #FFF;
+    padding: 0px 50px;
+    /*min-height: 500px;*/
+}
+
+
+.bd_body form button{
+    height: 37px;
+    border: 1px solid purple;
+    transition: 0.3s;
+    background: purple;
+    color: #FFF;
+    border-radius: 0px;
+}
+.bd_body form button:hover{
+    border: 1px solid purple;
+    background: #FFF;
+    color:purple; 
+}
+
+.bd_body h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 0px;
+    text-align: center;
+    color: purple;
+}
+.bd_body p.remind{
+    color: red;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 14px;
+}
+.bd_body .nav-tabs{border-bottom: 1px solid #9900CC;}
+.bd_body .nav-tabs > li > a{
+    color: #444;
+    border-radius: 0px;
+    border-right: none;
+}
+.bd_body .nav-tabs > li > a:hover{
+    background: #eee;
+    border-bottom: 1px solid #9900CC;
+}
+
+.bd_body .nav-tabs > li.active > a, 
+.bd_body .nav-tabs > li.active > a:focus, 
+.bd_body .nav-tabs > li.active > a:hover {
+    color: #000;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #9900CC;
+    border-radius: 0px;
+    border-bottom-color: transparent;
+}
+
+
+.bd_body form{}
+.bd_body form .form-group{margin-bottom: 25px;}
+
+.bd_body form label{font-weight: 500;}
+.bd_body form label span{color: red;}
+
+.bd_body form textarea,
+.bd_body form input[type="text"],
+.bd_body form input[type="password"]{
+    height: 35px;
+    border-radius: 0px;
+}
+
+.bd_body form textarea{
+    height: 90px;
+}
+.bd_body form input[type="text"]:focus,
+.bd_body form input[type="password"]:focus,
+.bd_body form select:focus,
+.bd_body form textarea:focus{
+    border: 1px solid purple;
+}
+
+.bd_body form select{
+    height: 35px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url("../img/arrowdown.gif") no-repeat 95% 50%;
+    border-radius: 0px;
+}
+.product_img{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#imageAlert{
+    color: red;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+/*.bd_body form input[type="file"]{
+    width: 230px;
+    height: 55px;
+    border-radius: 0px;
+    border: 1px solid #ddd;
+    padding: 0px;
+}*/
+
+
+/*Close Dashboard Body*/
